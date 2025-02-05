@@ -1,0 +1,86 @@
+:root{
+    --bg-overall:#F4F4F4;
+    --roboto-font:"Roboto", serif;
+    --barlow-font: "Barlow", serif;
+    --secondory-color:#FF2143;
+    --time-color:rgb(112, 123, 142)
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom{
+    background: var(--bg-overall);
+}
+
+.custom-pad{
+    padding: 80px 0;
+}
+.custom-bottom{
+    padding-bottom: 80px;
+}
+
+
+/* ---------------------------------- */
+
+#registration{
+    background: var(--bg-overall);
+}
+
+.register h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.reg-form{
+    width: 50%;
+    margin: auto;
+}
+
+.regisform label{
+    font-size: 20px;
+    font-weight: 600;
+    /* color: #0077b5; */
+    color: var(--secondory-color);
+}
+
+.btn-regis{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.btn-regis:hover{
+    background: var(--secondory-color);
+    color: black;
+}
+
+.al-regt{
+    color: var(--secondory-color);
+    padding-top: 10px;
+    float: right;
+}
+
+
+@media(max-width:992px){
+    .reg-form{
+        width: 70%;
+    }
+}
+
+@media(max-width:768px){
+    .reg-form{
+        width: 80%;
+    }
+}

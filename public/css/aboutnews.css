@@ -1,0 +1,215 @@
+:root{
+    --bg-overall:#F4F4F4;
+    --roboto-font:"Roboto", serif;
+    --barlow-font: "Barlow", serif;
+    --secondory-color:#FF2143;
+    --time-color:rgb(112, 123, 142);
+    --pinks:#eb566c;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom{
+    background: var(--bg-overall);
+}
+
+.custom-pad{
+    padding: 80px 0;
+}
+.custom-bottom{
+    padding-bottom: 80px;
+}
+/* --------------------------------------- */
+/* #our-mission{
+    padding: 100px;
+} */
+
+.mission{
+    padding-bottom: 60px;
+    margin-right: 400px;
+}
+
+.miss-head{
+    color: black;
+    font-family: var(--barlow-font);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+    margin-left: 9%;
+}
+
+.miss-head::before{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 60px;
+    top: 50%;
+    left: -9%;
+    background-color: var(--pinks);
+}
+
+.mission p{
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--time-color);
+}
+
+
+
+#member{
+    background: var(--bg-overall);
+}
+
+.mission-head{
+    color: var(--pinks);
+    font-family: var(--barlow-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    margin-left: 7%;
+}
+
+.mission-head::before{
+    position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 60px;
+    top: 50%;
+    left: -7%;
+    background-color: var(--pinks);
+}
+
+.team-intro{
+    padding-top: 30px;
+}
+
+.msn-detail h1{
+    font-family: var(--barlow-font);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: black;
+}
+
+.memb-detail img{
+    width: 100%;
+}
+
+.team{
+    background: white;
+    padding: 20px 0;
+}
+
+.team h3{
+    font-family: var(--barlow-font);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.team p{
+    font-family: var(--barlow-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--pinks);
+}
+
+@media(max-width:1400px){
+    .miss-head{
+        margin-left: 12%;
+    }
+
+    .miss-head::before{
+        left: -14%;
+    }
+}
+
+@media(max-width:1200px){
+    .mission{
+        margin-right: 100px;
+    }
+
+    .miss-head{
+        margin-left: 10%;
+    }
+
+    .miss-head::before{
+        left: -11%;
+    }
+}
+
+@media(max-width:992px){
+    .miss-head{
+        margin-left: 12%;
+    }
+
+    .miss-head::before{
+        left: -14%;
+    }
+
+    .mission-head{
+        margin-left: 12%;
+    }
+
+    .mission-head::before{
+        left: -14%;
+    }
+}
+
+@media(max-width:768px){
+
+    .miss-head{
+        margin-left: 20%;
+    }
+
+    .miss-head::before{
+        left: -25%;
+    }
+
+    .abc{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:576px){
+    .mission{
+        margin-right: 0;
+    }
+
+    .miss-head{
+        margin-left: 15%;
+    }
+
+    .miss-head::before{
+        left: -18%;
+    }
+
+    .memb-detail{
+        margin-bottom: 40px;
+    }
+
+    .memb-detail img{
+        max-width: 100%;
+    }
+
+    .abc{
+        margin-top: 0;
+    }
+
+}
